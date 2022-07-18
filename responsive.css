@@ -1,0 +1,161 @@
+@media (max-width : 1422px) {
+    .rate_wrapper h1{
+        font-size: 33px;
+    }
+}
+
+
+
+@media (max-width : 1300px) {
+    .header_wrapper .menu-navbar-nav{
+        width: auto;
+    }
+    /* RATE  */
+    .rate_wrapper h1{
+        font-size: 28px;
+    }
+}
+@media (max-width: 1230px) {
+    /* header */
+    .header_wrapper .nav-item{
+        margin:0 5px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding:12px 10px  !important;
+    }
+/* banner */
+
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+   .service_wrapper .offset-1 {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 991px) {
+    /* FEATURE  */
+.feature_wrapper h3{
+ font-size: 18px !important;
+}
+/* RATE  */
+.rate_wrapper .offset-1{
+    text-align: center;
+    margin-left: 0px;
+}
+.rate_wrapper p{
+    text-align: center;
+    margin-left: 0px;
+}
+.rate_wrapper h1{
+    font-size: 38px;
+}
+/* service  */
+.service_wrapper .card-title-3{
+    font-size: 10px;
+}
+
+.service_wrapper .card-text-3{
+    font-size: 10px;
+}
+
+.service_wrapper .img-1 {
+    width: 200px;
+    height: 200px;
+}
+/* footer  */
+
+.footer_wrapper input {
+    padding: 9px;
+}
+
+}
+
+
+@media (max-width: 875px) {
+.footer_wrapper .responsive{
+    display: block !important;
+}
+.footer_wrapper .part-1{
+    width: auto;
+    justify-content: space-evenly;
+}
+
+}
+
+@media (max-width: 767px) {
+
+    /* FEATURE  */
+    .feature_wrapper h3{
+     font-size: 16px !important;
+    }
+    .feature_wrapper li {
+        font-size: 10px !important;
+    }
+/* bennar  */
+.banner_wrapper .banner-title{
+    width: auto !important;
+}
+.banner_wrapper .banner-title-text-1{
+    width: auto;
+}
+.banner_wrapper .btn-header{
+    margin-top: 50px;
+}
+/* RATE   */
+
+.rate_wrapper .offset-1{
+    text-align: center;
+    margin-left: 0px;
+}
+/* service  */
+
+.service_wrapper .text-center {
+
+    display: block !important;
+}
+.service_wrapper .p-5 {
+    padding: 10px !important;
+}
+.service_wrapper .img-1 {
+    width: 180px !important;
+    height: 180px !important;
+}
+.service_wrapper .offset-1{
+    margin-left: 0px !important;
+}
+.service_wrapper .p-5 {
+    margin: 0px 60px;
+}
+  }
+
+
+
+@media (max-width: 577px) {
+/* banner   */
+.banner_wrapper p{
+    padding: 0px 25px;
+}
+
+/* feature  */
+.feature_wrapper .ft-1{
+    text-align: center !important;
+}
+.feature_wrapper .nav-item{
+    text-align: center;
+}
+.feature_wrapper .card-2{
+    margin-left: 50px;
+}
+.feature_wrapper .card{
+    margin-left: 50px;
+}
+.feature_wrapper h3{
+    text-align: center;
+}
+.service_wrapper .card-3{
+    padding: 7px;
+}
+.rate_wrapper .offset-3 {
+    margin-left: 16%;
+}
+}
