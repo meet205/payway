@@ -119,9 +119,8 @@ body {
 .banner_wrapper {
   display: flex;
   width: 100%;
-  height: 765px;
+height: auto;
   justify-content: center;
-
   align-items: center;
   position: relative;
   background-color: #309975;
@@ -214,17 +213,19 @@ body {
   text-align: initial;
 }
 
-.feature_wrapper .ft-1,
-.feature_wrapper .ft-3,
-.feature_wrapper .ft-2 {
-  background: #ffffff;
+.feature_wrapper .ft-1
+ {
+  background: rgba(239, 238, 180, 0.2);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 
+padding: 10px;
   height: 100%;
+  border-radius: 10px;
 }
 
 .feature_wrapper .card-1 {
-  max-width: 360px;
-  max-height: 550px;
+ 
   position: relative;
 }
 
@@ -265,7 +266,7 @@ body {
 .feature_wrapper li {
   font-weight: 400;
   font-size: 14px !important;
-  width: 335px;
+  list-style: none;
   margin: 9px 0px;
 }
 
@@ -289,8 +290,8 @@ body {
   color: #20656f;
   font-weight: 700;
   font-style: italic;
-  width: 100px;
-  text-align: center;
+
+  text-align: initial;
 }
 
 .feature_wrapper h6 {
@@ -299,8 +300,8 @@ body {
   color: #20656f;
   font-weight: 400;
   font-style: normal;
-  width: 150px;
-  text-align: center;
+
+  text-align: initial;
 }
 
 .feature_wrapper h5 {
@@ -309,8 +310,8 @@ body {
   color: #20656f;
   font-weight: 700;
   font-style: italic;
-  width: 150px;
-  text-align: center;
+
+  text-align: initial;
 }
 
 .feature_wrapper .card-2 {
@@ -327,7 +328,7 @@ body {
 
 .rate_wrapper {
   background-color: var(--bg-color);
-  padding: 50px 80px;
+  padding: 25px ;
 }
 
 .rate_wrapper h1 {
@@ -437,7 +438,7 @@ height: 220px !important;
 
 .footer_wrapper {
   background-color: var(--bg-color);
-  padding: 70px;
+padding: 10px;
 }
 .footer_wrapper .navbar-brand h3 {
   margin: 0px;
@@ -495,7 +496,7 @@ text-align: center;
 }
 .footer_wrapper .fter{
   color: white;
-  text-align: initial;
+  text-align: center;
   font-size: 12px;
 
 }
@@ -507,4 +508,7 @@ text-align: center;
 .footer_wrapper .icon{
   color: white;
   
+}
+.footer_wrapper .responsive{
+  justify-content: space-around ;
 }

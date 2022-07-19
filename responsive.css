@@ -32,6 +32,11 @@
         margin-left: 0px;
     }
 }
+@media (max-width: 1200px) {
+    .service_wrapper .img-1{
+       display: none;
+    }
+}
 @media (max-width: 991px) {
     /* FEATURE  */
 .feature_wrapper h3{
@@ -59,8 +64,8 @@
 }
 
 .service_wrapper .img-1 {
-    width: 200px;
-    height: 200px;
+   width: 220px;
+   height: 220px;
 }
 /* footer  */
 
@@ -132,9 +137,6 @@
 
 @media (max-width: 577px) {
 /* banner   */
-.banner_wrapper p{
-    padding: 0px 25px;
-}
 
 /* feature  */
 .feature_wrapper .ft-1{
@@ -143,19 +145,12 @@
 .feature_wrapper .nav-item{
     text-align: center;
 }
-.feature_wrapper .card-2{
-    margin-left: 50px;
-}
-.feature_wrapper .card{
-    margin-left: 50px;
-}
+
 .feature_wrapper h3{
     text-align: center;
 }
-.service_wrapper .card-3{
-    padding: 7px;
+.service_wrapper  .d-flex {
+    display: block!important;
 }
-.rate_wrapper .offset-3 {
-    margin-left: 16%;
-}
+
 }
