@@ -306,7 +306,7 @@ padding: 10px;
 
 .feature_wrapper h5 {
   font-size: 20px;
-
+  word-break: break-all;
   color: #20656f;
   font-weight: 700;
   font-style: italic;
@@ -511,4 +511,16 @@ text-align: center;
 }
 .footer_wrapper .responsive{
   justify-content: space-around ;
+}
+
+
+.rate_wrapper .small-part{
+
+  width: auto;
+  justify-content: center;
+
+}
+.rate_wrapper .pt-lg-5{
+  width: 347px;
+  text-align: center;
 }
