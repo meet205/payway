@@ -33,12 +33,18 @@
     }
 }
 @media (max-width: 1200px) {
+    .banner_wrapper .justify-content-center {
+        justify-content: space-between !important;
+    }
     .service_wrapper .img-1{
        height: 100px !important;
        width: 220px !important;
     }
 }
 @media (max-width: 991px) {
+    .banner_wrapper .justify-content-center {
+        justify-content: space-between !important;
+    }s
     /* FEATURE  */
 .feature_wrapper h3{
  font-size: 18px !important;
@@ -54,6 +60,7 @@
 }
 .rate_wrapper h1{
     font-size: 38px;
+    text-align: center;
 }
 /* service  */
 .service_wrapper .card-title-3{
@@ -78,6 +85,16 @@
 
 
 @media (max-width: 875px) {
+    .banner_wrapper .banner-title{
+        width: auto !important;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: normal;
+    }
+  
+    .banner_wrapper .justify-content-center {
+        justify-content: space-between !important;
+    }
 .footer_wrapper .responsive{
     display: block !important;
 }
@@ -116,9 +133,19 @@ display: block !important;
     .feature_wrapper li {
         font-size: 10px !important;
     }
+    .feature_wrapper .card-1{
+        width: auto;
+        padding: 20px;
+    }
+    .feature_wrapper .ft-1{
+        display: block;
+        padding: 20px;
+        text-align: center !important;
+    }
 /* bennar  */
 .banner_wrapper .banner-title{
     width: auto !important;
+    font-size: 25px;
 }
 .banner_wrapper .banner-title-text-1{
     width: auto;
@@ -177,4 +204,10 @@ display: block !important;
     height: 220px !important;
 }
 
+}
+@media (max-width: 460px){
+.banner_wrapper .banner-title-text-1 {
+    width: auto;
+    font-size: 11px;
+}
 }
